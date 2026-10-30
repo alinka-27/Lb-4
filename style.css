@@ -1,0 +1,98 @@
+body {
+  color: #333333;
+  background-color: #f8f5f2;
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 50px 20px;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: purple;
+}
+
+h3 {
+  color: pink;
+}
+
+.link {
+  color: green;
+}
+
+.special-link {
+  color: blue;
+}
+
+.note {
+  color: maroon;
+}
+
+.submit-btn {
+  color: black;
+}
+
+#first-post h2 {
+  color: orange;
+}
+
+[placeholder="Белый"]::placeholder {
+  color: white;
+}
+
+[placeholder="Белый"] {
+  background-color: #333333;
+  color: white;
+}
+
+.nav-list li:nth-child(3) {
+  color: yellow;
+}
+.nav-list li:nth-child(3) a {
+  color: yellow;
+}
+.nav-list li:nth-child(1) {
+color: green;
+}
+.nav-list li:nth-child(1) a {
+color: green;
+}
+.nav-list li:nth-child(2) {
+color: blue;
+}
+.nav-list li:nth-child(2) a {
+color: blue;
+}
+.color-list li:nth-child(2) {
+  color: brown;
+}
+
+.note::first-letter {
+  color: maroon;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.color-list li {
+  color: gray;
+}
+
+.color-list .highlighted {
+  color: black;
+}
+
+.important-widget h3 {
+  color: maroon;
+}
+
+#first-post h2 + p {
+  color: orange;
+}
+
+.post h2 + p {
+  color: purple;
+}
